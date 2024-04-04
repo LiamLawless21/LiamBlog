@@ -52,7 +52,7 @@
   font-weight: normal;
   text-transform: uppercase;
   font-size: 2.5rem; /* Increase font size for taller letters */
-  line-height: 3rem; /* Add line-height for spacing */
+  line-height: 2rem; /* Add line-height for spacing */
   max-width: 15em;  /* Adjust max-width for desired narrowness */
   overflow: hidden;
   color: black;
@@ -61,8 +61,12 @@
 
 .site-subtitle {
   display: block;
-  font-size: $type-size-8;
+  font-style: italic;
+  font-size: 0.9rem;  /* Reduce font size compared to title */
+  font-weight: 400;  /* Lighter weight for less emphasis */
+  text-transform: none;
 }
+
 
 .masthead__menu {
   float: left;
