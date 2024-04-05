@@ -4,8 +4,8 @@ main:
     url: /
   - title: "Books"
     url: /books/
-  - title: "Blog"
-    url: /blog/
+  - title: "Musings"
+    url: /musings/
   - title: "About"
     url: /about/
   - title: "Newsletter Archive"
