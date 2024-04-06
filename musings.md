@@ -1,6 +1,7 @@
 ---
 title: "Musings"
 permalink: /musings/
-layout: posts
+layout: postsbyyearbycategory
 author_profile: false
+taxonomy: musings
 ---
