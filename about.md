@@ -6,7 +6,7 @@ layout: single     # Specify layout (optional, defaults to 'page')
 
 What's my degree? Economics! Because that makes perfect sense with my personality, obviously.
 
-I've always wanted to be a writer since as long as I can remember. Stories of heroes and villains, knights and princesses—they lit something inside of me and made me want to share stories of my own with the world. 
+I've always wanted to be a writer since as long as I can remember. Stories of heroes and villains, knights and princesses---they lit something inside of me and made me want to share stories of my own with the world. 
 
 Unfortunately, writing a book is easier said than done! Turns out that most 14 year olds aren't well-equipped with the life experience and discipline needed to write something halfway decent.
 

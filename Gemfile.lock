@@ -302,6 +302,7 @@ PLATFORMS
 DEPENDENCIES
   bulma-sass
   github-pages
+  jekyll (= 3.9.5)
   jekyll-archives
   jekyll-include-cache
   webrick
