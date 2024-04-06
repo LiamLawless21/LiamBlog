@@ -10,6 +10,8 @@ main:
     url: /about/
   - title: "Newsletter Archive"
     url: /newsletters/
+  - title: "Contact"
+    url: /contact/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
