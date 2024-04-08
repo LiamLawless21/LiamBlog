@@ -33,8 +33,27 @@ book_cover: assets/image.png
                 <div class="column is is-1"></div>
                 <div class="column is-half">
                     <div class="box">
-                        <p>It is the end of the story. The heroes have failed. In a last-ditch effort to stop the destruction of the world as they know it, they send someone back in time to prevent the mistakes of the past from ever occurring. But while he may be strong, compared to the High One he is nothing more than a flicker. Struggling against fate, enemies, and his own doubts, will our hero manage to succeed and save Adonia?</p>
-                        <a href="{{ site.book_link }}" class="button">Get the Book</a>
+                      <p>It is the end of the story. The heroes have failed. In a last-ditch effort to stop the destruction of the world as they know it, they send someone back in time to prevent the mistakes of the past from ever occurring. But while he may be strong, compared to the High One he is nothing more than a flicker. Struggling against fate, enemies, and his own doubts, will our hero manage to succeed and save Adonia?</p>
+                      <div class="buttons">
+                        <button class="button">
+                          <a href="{{ s.amazon_url | absolute_url }}">
+                            <i style="vertical-align: middle;" class="fab fa-amazon"></i>
+                            <span>Buy on Amazon</span>
+                          </a>
+                        </button>
+                        <button class="button">
+                          <a href="{{ s.kobo_url | absolute_url }}">
+                            <i style="vertical-align: middle;" class="fab fa-apple"></i>
+                            <span>Buy on Apple</span>
+                          </a>
+                        </button>
+                        <button class="button">
+                          <a href="{{ s.kobo_url | absolute_url }}">
+                            <i style="vertical-align: middle;" class="fa fa-book"></i>
+                            <span>Buy elsewhere</span>
+                          </a>
+                        </button>
+                      </div>
                     </div>
                 </div>
         </div>
