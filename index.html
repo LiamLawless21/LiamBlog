@@ -58,34 +58,36 @@ book_cover: assets/image.png
                 </div>
         </div>
     </section>
-    <div class="initial-content">
+    <div class="section">
         {% if page.url != "/" and site.breadcrumbs %}
         {% unless paginator %}
             {% include breadcrumbs.html %}
         {% endunless %}
         {% endif %}
-      <div id="main" role="main">
+      <div id="main" role="main" class="container">
         {% include sidebar.html %}
-      
-        <div class="archive">
+        
+          <div class="ml-embedded" data-form="0EA7Qq"></div>
+        <div class="section">
+          <div class="archive">
 
-            <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-            
-            {% if paginator %}
-              {% assign posts = paginator.posts %}
-            {% else %}
-              {% assign posts = site.posts %}
-            {% endif %}
-            
-            {% assign entries_layout = page.entries_layout | default: 'list' %}
-            <div class="entries-{{ entries_layout }}">
-              {% for post in posts %}
-                {% include archive-single.html type=entries_layout %}
-              {% endfor %}
+              <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+              
+              {% if paginator %}
+                {% assign posts = paginator.posts %}
+              {% else %}
+                {% assign posts = site.posts %}
+              {% endif %}
+              
+              {% assign entries_layout = page.entries_layout | default: 'list' %}
+              <div class="entries-{{ entries_layout }}">
+                {% for post in posts %}
+                  {% include archive-single.html type=entries_layout %}
+                {% endfor %}
+              </div>
             </div>
-            
-            {% include paginator.html %}
-        </div>
+              {% include paginator.html %}
+          </div>
       </div>
 
 

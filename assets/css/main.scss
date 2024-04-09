@@ -18,6 +18,6 @@ $monospace  : Monaco, Consolas, "Lucida Console", monospace;
  with serifs reserved for captions. 
  If you wish to change this you’ll need to poke around the various SCSS partials 
  and modify font-family declarations. */
- .ml-form-embedBody.ml-form-embedBodyDefault.row-form {
+ .sidebar .ml-form-embedBody.ml-form-embedBodyDefault.row-form {
     padding-left: 0 !important; 
  }
