@@ -3,6 +3,7 @@ title: Second Time's the Charm
 layout: single
 header:
     teaser: assets/secondtimesthecharmcover.jpg
+comments: true
 sidebar:
   - title: "Buy At:"
     image: assets/secondtimesthecharmcover.jpg
