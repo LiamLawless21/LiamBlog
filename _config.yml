@@ -42,6 +42,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   
+repository: LiamLawless21/LiamBlog
     
 provider: "custom"
 
