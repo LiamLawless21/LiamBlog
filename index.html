@@ -1,6 +1,6 @@
 ---
 title: Home
-hero_image: assets/fantasylandscapeDONOTUSEINPRODUCTION.jpeg
+hero_image: assets/landscapeimage1.png
 book_cover: assets/secondtimesthecharmcover.jpg
 ---
 
@@ -20,7 +20,7 @@ book_cover: assets/secondtimesthecharmcover.jpg
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
-    <section class="hero is-fullheight" style="background-image: url('{{ page.hero_image }}');">
+    <section class="hero is-medium" style="background-image: url('{{ page.hero_image }}'); background-size:cover; background-position: center center;">
         <div class="hero-body">
             <div class="columns is-centered is-vcentered">
                 <div class="column is-3">
@@ -30,25 +30,25 @@ book_cover: assets/secondtimesthecharmcover.jpg
                         </figure>
                     </div>
                 </div>
-                <div class="column is is-1"></div>
-                <div class="column is-half">
+                
+                <div class="column is-two-thirds">
                     <div class="box has-background-dark has-text-white has-text-warning-light">
                       <p>It is the end of the story. The heroes have failed. In a last-ditch effort to stop the destruction of the world as they know it, a hero is sent back in time to prevent the mistakes of the past from ever occurring. But while he may be strong, compared to the High One he is nothing more than a flicker. Struggling against fate, enemies, and his own doubts, will our hero manage to succeed and save Adonia?</p>
                       <div class="buttons">
                         <button class="button has-background-grey-dark has-text-warning-light">
-                          <a href="{{ header.amazon_url | absolute_url }}" class="has-text-warning-light">
+                          <a href="{{ header.amazon_url | absolute_url }}" target="_blank" class="has-text-warning-light">
                             <i style="vertical-align: middle;" class="fab fa-amazon"></i>
                             <span>Buy on Amazon</span>
                           </a>
                         </button>
                         <button class="button has-background-grey-dark has-text-warning-light">
-                          <a href="{{ header.apple_url | absolute_url }}" class="has-text-warning-light">
+                          <a href="https://itunes.apple.com/us/book/id6484402738" target="_blank" class="has-text-warning-light">
                             <i class="fab fa-apple"></i>
                             <span>Buy on Apple</span>
                           </a>
                         </button>
                         <button class="button has-background-grey-dark has-text-warning-light">
-                          <a href="{{ header.kobo_url | absolute_url }}" class="has-text-warning-light">
+                          <a href="https://books2read.com/u/3L8g50" target="_blank" class="has-text-warning-light">
                             <i style="vertical-align: middle;" class="fa fa-book"></i>
                             <span>Buy elsewhere</span>
                           </a>

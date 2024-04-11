@@ -12,7 +12,7 @@
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
       {% if s.amazon_url %}
       <button class="button">
-        <a href="{{ s.amazon_url | absolute_url }}">
+        <a href="{{ s.amazon_url | absolute_url }}" target="_blank">
           <i style="vertical-align: middle;" class="fab fa-amazon"></i>
           <span>Buy on Amazon</span>
         </a>
@@ -20,7 +20,7 @@
       {% endif %}
       {% if s.apple_url %}
       <button class="button">
-        <a href="{{ s.kobo_url | absolute_url }}">
+        <a href="{{ s.kobo_url | absolute_url }}" target="_blank">
           <i class="fab fa-apple"></i>
           <span>Buy on Apple</span>
         </a>
@@ -28,14 +28,14 @@
       {% endif %}
       {% if s.kobo_url %}
       <button class="button">
-        <a href="{{ s.kobo_url | absolute_url }}">
+        <a href="{{ s.kobo_url | absolute_url }}" target="_blank">
           <span>Buy from Kobo</span>
         </a>
       </button>
       {% endif %}
       {% if s.universal_book_link %}
       <button class="button">
-        <a href="{{ s.universal_book_link | absolute_url }}">
+        <a href="{{ s.universal_book_link | absolute_url }}" target="_blank">
           <i style="vertical-align: middle;" class="fa fa-book"></i>
           <span>Buy elsewhere</span>
         </a>
