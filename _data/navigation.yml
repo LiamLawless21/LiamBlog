@@ -8,6 +8,8 @@ main:
     url: /musings/
   - title: "About"
     url: /about/
+  - title: "Contact"
+    url: /contact/
   - title: "Newsletter Archive"
     url: /newsletters/
   # - title: "Sample Posts"

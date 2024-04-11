@@ -1,7 +1,7 @@
 ---
 title: Home
-hero_image: assets/fantasylandscapeDONOTUSEINPRODUCTION.jpeg
-book_cover: assets/image.png
+hero_image: assets/landscapeimage1.png
+book_cover: assets/secondtimesthecharmcover.jpg
 ---
 
 <!doctype html>
@@ -11,7 +11,7 @@ book_cover: assets/image.png
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class=" no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
@@ -20,7 +20,7 @@ book_cover: assets/image.png
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
-    <section class="hero is-fullheight" style="background-image: url('{{ page.hero_image }}');">
+    <section class="hero is-medium" style="background-image: url('{{ page.hero_image }}'); background-size:cover; background-position: center center;">
         <div class="hero-body">
             <div class="columns is-centered is-vcentered">
                 <div class="column is-3">
@@ -30,43 +30,64 @@ book_cover: assets/image.png
                         </figure>
                     </div>
                 </div>
-                <div class="column is is-1"></div>
-                <div class="column is-half">
-                    <div class="box">
-                        <p>It is the end of the story. The heroes have failed. In a last-ditch effort to stop the destruction of the world as they know it, they send someone back in time to prevent the mistakes of the past from ever occurring. But while he may be strong, compared to the High One he is nothing more than a flicker. Struggling against fate, enemies, and his own doubts, will our hero manage to succeed and save Adonia?</p>
-                        <a href="{{ site.book_link }}" class="button">Get the Book</a>
+                
+                <div class="column is-two-thirds">
+                    <div class="box has-background-dark has-text-white has-text-warning-light">
+                      <p>It is the end of the story. The heroes have failed. In a last-ditch effort to stop the destruction of the world as they know it, a hero is sent back in time to prevent the mistakes of the past from ever occurring. But while he may be strong, compared to the High One he is nothing more than a flicker. Struggling against fate, enemies, and his own doubts, will our hero manage to succeed and save Adonia?</p>
+                      <div class="buttons">
+                        <button class="button has-background-grey-dark has-text-warning-light">
+                          <a href="{{ header.amazon_url | absolute_url }}" target="_blank" class="has-text-warning-light">
+                            <i style="vertical-align: middle;" class="fab fa-amazon"></i>
+                            <span>Buy on Amazon</span>
+                          </a>
+                        </button>
+                        <button class="button has-background-grey-dark has-text-warning-light">
+                          <a href="https://itunes.apple.com/us/book/id6484402738" target="_blank" class="has-text-warning-light">
+                            <i class="fab fa-apple"></i>
+                            <span>Buy on Apple</span>
+                          </a>
+                        </button>
+                        <button class="button has-background-grey-dark has-text-warning-light">
+                          <a href="https://books2read.com/u/3L8g50" target="_blank" class="has-text-warning-light">
+                            <i style="vertical-align: middle;" class="fa fa-book"></i>
+                            <span>Buy elsewhere</span>
+                          </a>
+                        </button>
+                      </div>
                     </div>
                 </div>
         </div>
     </section>
-    <div class="initial-content">
+    <div class="section">
         {% if page.url != "/" and site.breadcrumbs %}
         {% unless paginator %}
             {% include breadcrumbs.html %}
         {% endunless %}
         {% endif %}
-      <div id="main" role="main">
+      <div id="main" role="main" class="container">
         {% include sidebar.html %}
-      
-        <div class="archive">
+        
+          <div class="ml-embedded" data-form="0EA7Qq"></div>
+        <div class="section">
+          <div class="archive">
 
-            <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-            
-            {% if paginator %}
-              {% assign posts = paginator.posts %}
-            {% else %}
-              {% assign posts = site.posts %}
-            {% endif %}
-            
-            {% assign entries_layout = page.entries_layout | default: 'list' %}
-            <div class="entries-{{ entries_layout }}">
-              {% for post in posts %}
-                {% include archive-single.html type=entries_layout %}
-              {% endfor %}
+              <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+              
+              {% if paginator %}
+                {% assign posts = paginator.posts %}
+              {% else %}
+                {% assign posts = site.posts %}
+              {% endif %}
+              
+              {% assign entries_layout = page.entries_layout | default: 'list' %}
+              <div class="entries-{{ entries_layout }}">
+                {% for post in posts %}
+                  {% include archive-single.html type=entries_layout %}
+                {% endfor %}
+              </div>
             </div>
-            
-            {% include paginator.html %}
-        </div>
+              {% include paginator.html %}
+          </div>
       </div>
 
 
