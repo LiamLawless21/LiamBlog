@@ -63,8 +63,15 @@ layout: default
       {% include post_pagination.html %}
     </div>
 
-    {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
-      {% include comments.html %}
+    {% if page.comments %}
+    <div id="cusdis_thread"
+    data-host="https://cusdis.com"
+    data-app-id="9ddce41f-9abf-4d86-815a-783a366ad67a"
+    data-page-id="{{ page.id }}"
+    data-page-url="{{ page.url }}"
+    data-page-title="{{ page.title }}"
+    ></div>
+    <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
     {% endif %}
   </article>
 
