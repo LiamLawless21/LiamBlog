@@ -2,11 +2,11 @@
 title: Second Time's the Charm
 layout: single
 header:
-    teaser: assets/secondtimesthecharmcover.jpg
+    teaser: assets/secondtimesthecharmcover.webp
 comments: true
 sidebar:
   - title: "Buy At:"
-    image: assets/secondtimesthecharmcover.jpg
+    image: assets/secondtimesthecharmcover.webp
     image_alt: "book cover"
     text: ""
     amazon_url: "https://www.amazon.com"
