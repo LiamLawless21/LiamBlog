@@ -2,7 +2,7 @@
 title: About Me  # Title for your about page
 layout: single     # Specify layout (optional, defaults to 'page')
 ---
-!["OwO Hello there!"](assets/portrait.jpeg#right){: .align-right}{: width="45%" } Hello there! My name is Liam Lawless. I'm a writer and student from deep in the heart of Texas (though I had a brief stint in the Philippines). At the current moment, I'm going to Houston Community College and heading to Texas A&M next semester.
+!["OwO Hello there! This is a picture of me!"](assets/portrait.jpeg#right){: .align-right}{: width="45%" } Hello there! My name is Liam Lawless. I'm a writer and student from deep in the heart of Texas (though I had a brief stint in the Philippines). At the current moment, I'm going to Houston Community College and heading to Texas A&M next semester.
 
 What's my degree? Economics! Because that makes perfect sense with my personality, obviously.
 
