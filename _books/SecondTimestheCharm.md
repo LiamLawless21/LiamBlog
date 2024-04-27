@@ -9,7 +9,7 @@ sidebar:
     image: assets/secondtimesthecharmcover.webp
     image_alt: "book cover"
     text: ""
-    amazon_url: "https://www.amazon.com"
+    amazon_url: "https://a.co/d/hJQHU9Y"
     apple_url: "https://itunes.apple.com/us/book/id6484402738"
     universal_book_link: "https://books2read.com/u/3L8g50"
 
@@ -31,4 +31,4 @@ Trapped in the past from everything he knows and loves, Alexander is facing mult
 
 ---
 
-Would you like to read the prologue for this story? Click [here](/samples/secondtimesthecharmprologue) to read it online. Click [here](/assets/secondtimesthecharmprologue.epub) to get the prologue in epub format. You can also get a sample of the book at your [preferred ebook seller here](https://books2read.com). Thanks!
+Would you like to read the prologue for this story? Click [here](/samples/secondtimesthecharmprologue) to read it online. Click [here](/assets/secondtimesthecharmprologue.epub) to get the prologue in epub format. You can also get a sample of the book at your [preferred ebook seller here](https://books2read.com/u/3L8g50). Thanks!
