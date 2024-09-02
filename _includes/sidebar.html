@@ -41,6 +41,13 @@
         </a>
       </button>
       {% endif %}
+      {% if s.royalroad_url %}
+      <button class="button">
+        <a href="{{ s.royalroad_url | absolute_url }}" target="_blank">
+          <span>Read online</span>
+        </a>
+      </button>
+      {% endif %}
       {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
     {% endfor %}
     {% if page.sidebar.nav %}
