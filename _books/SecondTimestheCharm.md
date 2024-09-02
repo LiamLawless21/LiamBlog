@@ -5,7 +5,7 @@ header:
     teaser: assets/secondtimesthecharmcover.webp
 comments: true
 sidebar:
-  - title: "Buy At:"
+  - title: "Get At:"
     image: assets/secondtimesthecharmcover.webp
     image_alt: "book cover"
     text: ""

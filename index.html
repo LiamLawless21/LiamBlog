@@ -1,7 +1,7 @@
 ---
 title: Home
 hero_image: assets/landscapeimage1.webp
-book_cover: assets/secondtimesthecharmcover.webp
+book_cover: assets/FateweaverBookCover.webp
 ---
 
 <!doctype html>
@@ -20,37 +20,43 @@ book_cover: assets/secondtimesthecharmcover.webp
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
-    <section class="hero is-medium" style="background-image: url('{{ page.hero_image }}'); background-size:cover; background-position: center center;">
+    <section class="hero is-small" style="background-image: url('{{ page.hero_image }}'); background-size:cover; background-position: center center;">
         <div class="hero-body">
             <div class="columns is-centered is-vcentered">
                 <div class="column is-3">
                     <div class="container">
                         <figure class="image is-3by5">
-                            <img src="{{ page.book_cover }}" width="400" alt="An epic fantasy book cover" >
+                            <img src="{{ page.book_cover }}" width="400" alt="An epic fantasy book cover with the title of Fateweaver" >
                         </figure>
                     </div>
                 </div>
                 
                 <div class="column is-two-thirds">
                     <div class="box has-background-dark has-text-white has-text-warning-light">
-                      <p>It is the end of the story. The heroes have failed. In a last-ditch effort to stop the destruction of the world as they know it, a hero is sent back in time to prevent the mistakes of the past from ever occurring. But while he may be strong, compared to the High One he is nothing more than a flicker. Struggling against fate, enemies, and his own doubts, will our hero manage to succeed and save Adonia?</p>
+                      <p>
+                       <b>
+                           Demons fear swords and magic. They never saw the needle coming.
+                        </b>
+                      </p>
+                      <p>
+                        The Demon King has raged across Cortia for 50 years. He’s opposed by Otherworlders: powerful soldiers who posess the unique ability to bond with Spirit Weapons.
+                      </p>
+                      <p>
+                        When runaway teen Ezra wakes up in another world, the kingdom makes him an offer: fight for them, and he’ll be granted a spirit weapon. Ezra accepts, expecting a sword or a spear.
+                      </p>
+                      <p>
+                        He certainly doesn’t expect a sentient needle with a petty streak and a hidden past.
+                      </p>
+                      <p>
+                        With monsters, murderous Knight Commanders, and his own weapon breathing down his throat, a normal person would probably buckle under the pressure. For Ezra, this is an opportunity—thanks to levels, the power he’s craved is finally in sight.
+                      </p>
+                      <p>
+                        And nothing’s going to get in his way.
+                      </p>
                       <div class="buttons">
                         <button class="button has-background-grey-dark has-text-warning-light">
-                          <a href="https://a.co/d/hJQHU9Y" target="_blank" class="has-text-warning-light">
-                            <i style="vertical-align: middle;" class="fab fa-amazon"></i>
-                            <span>Buy on Amazon</span>
-                          </a>
-                        </button>
-                        <button class="button has-background-grey-dark has-text-warning-light">
-                          <a href="https://itunes.apple.com/us/book/id6484402738" target="_blank" class="has-text-warning-light">
-                            <i class="fab fa-apple"></i>
-                            <span>Buy on Apple</span>
-                          </a>
-                        </button>
-                        <button class="button has-background-grey-dark has-text-warning-light">
-                          <a href="https://books2read.com/u/3L8g50" target="_blank" class="has-text-warning-light">
-                            <i style="vertical-align: middle;" class="fa fa-book"></i>
-                            <span>Buy elsewhere</span>
+                          <a href="https://www.royalroad.com/fiction/92612/fateweaver-isekai-litrpg" target="_blank" class="has-text-warning-light">
+                            <span>Read on Royalroad.com</span>
                           </a>
                         </button>
                       </div>
@@ -105,7 +111,6 @@ book_cover: assets/secondtimesthecharmcover.webp
         {% include footer/custom.html %}
         {% include_cached footer.html %}
         <p>Landscape image by Star</p>
-        <p>The story <i>Second Time's the Charm</i> is being published by me on Royal Road.</p>
       </footer>
     </div>
 
