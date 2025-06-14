@@ -10,6 +10,7 @@ sidebar:
     image_alt: "book cover"
     text: ""
     royalroad_url: "https://www.royalroad.com/fiction/92612/fateweaver-isekai-litrpg"
+date: 2024-06-20
 
 ---
 **Demons fear swords and magic. They never saw the needle coming.**

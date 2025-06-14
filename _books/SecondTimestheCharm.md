@@ -12,6 +12,7 @@ sidebar:
     amazon_url: "https://a.co/d/hJQHU9Y"
     apple_url: "https://itunes.apple.com/us/book/id6484402738"
     universal_book_link: "https://books2read.com/u/3L8g50"
+date: 2024-01-10
 
 ---
 
