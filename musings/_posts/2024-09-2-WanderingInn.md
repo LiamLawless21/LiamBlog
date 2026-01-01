@@ -4,6 +4,10 @@ title: The Wandering Inn's Core Problem
 author_profile: true
 comments: true
 ---
+I regret putting this up. 
+
+Writers are in something of a brotherhood, so to publically shit on another writer's book is a bit of a faux pas and screw-up on my end. This post shouldn't have been put up. I'm keeping it up for posterity, but wanted to make it clear that I ought to do better next time.
+---
 *Disclaimer: I've read up to the end of book 1. Yes, I'm aware that the prose and characterization improves, but my critique does not target those areas.*
 
 I'm not a fan of the Wandering Inn.
@@ -84,7 +88,7 @@ Well, the dumb, lame, and mostly-false answer is that popularity doesn't equal q
 
 But that's totally unfair and it doesn't give due credit to Pirateaba, because despite all the flaws, there are certain things that TWI does that are truly exceptional. The worldbuilding, the way it's able to explore daily life, the way that it captures such a detailed picture of humanity at its most real—all of that is icnredibly powerful, and it's something that is worthy of praise. I suspect that this is the key behind TWI's success. Despite the many, many flaws of the story, there are simply some things that it does better than just about any other story out there. One might even argue that this excuses those aforementioned flaws.
 
-But what do I know? Perhaps this essay is nothing more than the jealous rantings and ravings of a significantly less successful author. That's the tricky part of literary analysis when you have a stake in the field. Well, whatever. I'm going to be sitting down and reading [Rise of The Infernal Paladin](https://www.royalroad.com/fiction/91573/rise-of-the-infernal-paladin-a-system-apocalypse).
+But what do I know? Perhaps this essay is nothing more than the jealous rantings and ravings of a significantly less successful author. That's the tricky part of literary analysis when you have a stake in the field.
 
 Hope you all got something out of this, have a good day.
 

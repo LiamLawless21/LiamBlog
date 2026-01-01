@@ -5,7 +5,7 @@ header:
     teaser: assets/ebook-ASQ.jpg
 comments: true
 sidebar:
-  - title: "Get At:"
+  - title: "Get the first book at:"
     image: assets/ebook-ASQ.jpg
     image_alt: "book cover"
     text: ""
