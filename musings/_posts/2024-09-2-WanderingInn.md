@@ -7,7 +7,9 @@ comments: true
 I regret putting this up. 
 
 Writers are in something of a brotherhood, so to publically shit on another writer's book is a bit of a faux pas and screw-up on my end. This post shouldn't have been put up. I'm keeping it up for posterity, but wanted to make it clear that I ought to do better next time.
+
 ---
+
 *Disclaimer: I've read up to the end of book 1. Yes, I'm aware that the prose and characterization improves, but my critique does not target those areas.*
 
 I'm not a fan of the Wandering Inn.
